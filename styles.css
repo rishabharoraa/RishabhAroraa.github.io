@@ -23,6 +23,7 @@
 
 .heading-about {
   font-size: 1.5em;
+  padding-left: 1em;
 }
 
 .cursor {
@@ -141,17 +142,18 @@
 .download-button {
   background-color: #111;
   color: white;
-  border: 1px solid #111;
-  padding: 1em;
+  border: 3px solid #111;
+  font-size: 1.25em;
+  padding: .75em;
   margin-top: 2vh;
-  border-radius: 3px;
+  border-radius: .5em;
   transition: 0.3s;
 }
 
 .download-button:hover {
   background-color: white;
   color: #111;
-  border: 1px dashed #111;
+  border: 3px dashed #111;
 }
 
 .contact-wrapper {
