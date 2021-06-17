@@ -1,9 +1,15 @@
+@font-face {
+  font-family: Track;
+  src: url('Track-Regular.otf') format('truetype');
+ }
+
 *{
   margin: 0;
   padding: 0;
 }
 
 .heading-wrapper {
+  font-family: Track !important;
   padding-top: 20vh;
   padding-bottom: 20vh;
   text-align: center;
@@ -79,6 +85,7 @@
   padding-right: 25vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
+  font-family: 'Noto Sans';
 }
 
 .block-heading {
@@ -98,11 +105,12 @@
 
 .projects-wrapper {
   padding-left: 25vw;
-  padding-right: 25vw;
+  padding-right: 20vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
   background-color: #111;
   color: white;
+  font-family: 'Noto Sans';
 }
 
 .project {
@@ -127,6 +135,7 @@
   padding-bottom: 5vh;
   padding-left: 25vw;
   padding-right: 25vw;
+  font-family: 'Noto Sans';
 }
 
 .download-button {
@@ -152,6 +161,7 @@
   padding-right: 25vw;
   padding-bottom: 5vh;
   padding-top: 5vh;
+  font-family: 'Noto Sans';
 }
 
 .contact-element {
