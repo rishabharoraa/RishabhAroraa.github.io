@@ -21,6 +21,7 @@
 
 .about-me-wrapper {
   padding-left: 25vw;
+  padding-right: 25vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
 }
@@ -35,8 +36,14 @@
   padding-bottom: 2vh;
 }
 
+.about-me-list {
+  font-size: .8em !important;
+  padding-left: 1em;
+}
+
 .projects-wrapper {
   padding-left: 25vw;
+  padding-right: 25vw;
   padding-top: 5vh;
   padding-bottom: 5vh;
   background-color: #111;
@@ -53,6 +60,7 @@
   padding-top: 5vh;
   padding-bottom: 5vh;
   padding-left: 25vw;
+  padding-right: 25vw;
 }
 
 .download-button {
@@ -75,6 +83,18 @@
   background-color: #111;
   color: white;
   padding-left: 25vw;
+  padding-right: 25vw;
   padding-bottom: 5vh;
   padding-top: 5vh;
+}
+
+.contact-element {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 1.25em;
+}
+
+.contact-element img {
+  height: 1.25em;
+  vertical-align: middle;
 }
