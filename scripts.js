@@ -9,5 +9,8 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
-
 typeWriter();
+
+let scroller = function(id){
+  document.getElementById(id).scrollIntoView({block: "center", inline: "center"});
+}
