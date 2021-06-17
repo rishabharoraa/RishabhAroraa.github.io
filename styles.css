@@ -3,11 +3,78 @@
   padding: 0;
 }
 
-.heading {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-size: 6em;
+.heading-wrapper {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   text-align: center;
   color: white;
-  background-color: black;
+  background-color: #111;
+}
+
+.heading-name {
+  font-size: 6em;
+}
+
+.heading-about {
+  font-size: 1.5em;
+}
+
+.about-me-wrapper {
+  padding-left: 25vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.block-heading {
+  font-size: 3em;
+}
+
+.about-me {
+  font-size: 1.5em;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.projects-wrapper {
+  padding-left: 25vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #111;
+  color: white;
+}
+
+.project {
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+  font-size: 1.5em;
+}
+
+.resume-wrapper {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 25vw;
+}
+
+.download-button {
+  background-color: #111;
+  color: white;
+  border: 1px solid #111;
+  padding: 1em;
+  margin-top: 2vh;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.download-button:hover {
+  background-color: white;
+  color: #111;
+  border: 1px dashed #111;
+}
+
+.contact-wrapper {
+  background-color: #111;
+  color: white;
+  padding-left: 25vw;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
 }
