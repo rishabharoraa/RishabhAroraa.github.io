@@ -1,4 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .heading {
-  margin: auto;
-  font-size: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 6em;
+  text-align: center;
+  color: aliceblue;
+  background-color: #333;
 }
