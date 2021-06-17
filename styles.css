@@ -21,7 +21,7 @@
 
 .cursor {
   color: white;
-  font-size: .75em;
+  font-size: em;
   -webkit-animation: .75s blink step-end infinite;
   -moz-animation: .75s blink step-end infinite;
   -ms-animation: .75s blink step-end infinite;
@@ -163,7 +163,7 @@
 .contact-element img {
   height: 1.25em;
   vertical-align: middle;
-  padding-right: 1vw;
+  padding-right: .5vw;
 }
 
 .contact-element a {
