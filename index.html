@@ -10,12 +10,21 @@
   </head>
   <body>
 
+    <nav class="nav">
+      <ul>
+        <li><a onclick="scroller('projects')">Projects</a></li>
+        <li><a onclick="scroller('about')">About</a></li>
+        <li><a onclick="scroller('resume')">Resume</a></li>
+        <li style="float: right; padding-right: 3em;" ><a onclick="scroller('contact')">Contact Me</a></li>
+      </ul>
+    </nav>
+
     <div class="heading-wrapper"> 
       <div class="heading-name"> Rishabh Arora </div>
       <div class="heading-about"><span id="typewriter">I am a Software Developer</span><span class="cursor">_</span></div>
     </div>
 
-    <div class="about-me-wrapper">
+    <div class="about-me-wrapper" id="about">
       <div class="block-heading">About me</div>
       <div class="about-me"> 
         <p>
@@ -44,7 +53,7 @@
       </div>
     </div>
 
-    <div class="projects-wrapper">
+    <div class="projects-wrapper" id="projects">
       <div class="block-heading"> Projects </div>
       <div style="height: 1vh;"></div>
       <div class="project"> 
@@ -61,14 +70,14 @@
       </div>
     </div>
 
-    <div class="resume-wrapper">
+    <div class="resume-wrapper" id="resume">
       <div class="block-heading"> My resume </div> 
-        <form method="get" action="https://github.com/RishabhAroraa/RishabhAroraa.github.io/raw/main/Rishabh%20Arora.pdf">
+        <form method="get" action="https://github.com/RishabhAroraa/RishabhAroraa.github.io/raw/main/Rishabh_Arora_Resume.pdf">
         <button type="submit" class="download-button"> Download Resume </button>
       </form>
     </div>
 
-    <div class="contact-wrapper">
+    <div class="contact-wrapper" id="contact">
       <div class="block-heading"> Contact me </div>
       <div style="height: 1em;"></div>
       <div class="contact-element">
