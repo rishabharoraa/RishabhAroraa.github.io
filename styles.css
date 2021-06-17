@@ -97,4 +97,10 @@
 .contact-element img {
   height: 1.25em;
   vertical-align: middle;
+  padding-right: 1vw;
+}
+
+.contact-element a {
+  text-decoration: none;
+  color: white;
 }
