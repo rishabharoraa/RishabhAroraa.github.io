@@ -19,6 +19,61 @@
   font-size: 1.5em;
 }
 
+.cursor {
+  color: white;
+  font-size: .75em;
+  -webkit-animation: .75s blink step-end infinite;
+  -moz-animation: .75s blink step-end infinite;
+  -ms-animation: .75s blink step-end infinite;
+  -o-animation: .75s blink step-end infinite;
+  animation: .75s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
 .about-me-wrapper {
   padding-left: 25vw;
   padding-right: 25vw;
@@ -54,6 +109,17 @@
   padding-bottom: 2vh;
   padding-top: 2vh;
   font-size: 1.5em;
+}
+
+.project img {
+  height: 1.25em;
+  padding-right: .5vw;
+  vertical-align: bottom;
+}
+
+.project a {
+  text-decoration: none;
+  color: white;
 }
 
 .resume-wrapper {
