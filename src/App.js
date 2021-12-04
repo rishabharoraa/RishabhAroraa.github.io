@@ -1,9 +1,10 @@
 import './App.css';
+import Banner from './components/banner/Banner';
 
 function App() {
   return (
     <div className="App">
-      <h1>Rishabh Arora yay</h1>
+      <Banner />
     </div>
   );
 }
