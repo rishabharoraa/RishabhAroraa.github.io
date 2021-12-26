@@ -13,8 +13,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav>
-      <div className="flex justify-between p-5 bg-sky-700 text-white">
+    <nav className="fixed top-0">
+      <div className="w-screen flex justify-between p-5 bg-sky-500 text-white">
         <div onClick={openMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
