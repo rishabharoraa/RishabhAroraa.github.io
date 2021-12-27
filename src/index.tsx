@@ -4,7 +4,7 @@ import './index.css'
 import App from './App'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import LandingPage from 'pages/LandingPage/LandingPage'
+import LandingPage from './pages/LandingPage/LandingPage'
 
 ReactDOM.render(
   <React.StrictMode>

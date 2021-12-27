@@ -13,8 +13,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="fixed top-0">
-      <div className="w-screen flex justify-between p-5 bg-sky-500 text-white">
+    <nav className="fixed top-0 w-full">
+      <div className="flex justify-between p-5 bg-sky-500 text-white">
         <div onClick={openMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,10 @@ const Navbar = () => {
         </div>
 
         <div className="text-xl">Rishabh Arora</div>
-        <div onClick={closeMenu}>
+        <div
+          // onClick={closeMenu}
+          className="invisible"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"

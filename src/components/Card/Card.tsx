@@ -10,7 +10,7 @@ const Card = ({
   tags: any[]
 }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="w-5/6 rounded overflow-hidden shadow-lg">
       <img
         src={image}
         alt="mandelbrot set"
