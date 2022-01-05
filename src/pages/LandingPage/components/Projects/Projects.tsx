@@ -3,11 +3,16 @@ import mandelbrot from './mandelbrot.png'
 import colorize from './colorize.png'
 import report from './Employee-Report.png'
 
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
+
 const Projects = () => {
   return (
     <div className="pt-7 flex flex-col items-center justify-center">
       <div className="text-2xl mb-4">My projects</div>
+
       <hr className="border-t border-t-1 border-t-slate-200 w-7/12 mb-8" />
+
       <div className="flex flex-col items-center justify-center gap-y-8">
         <Card
           image={mandelbrot}
