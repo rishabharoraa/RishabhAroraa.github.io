@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3350f23.css",
+    "main.js": "/static/js/main.b4ed0d3f.js",
+    "static/media/colorize.png": "/static/media/colorize.6c635f540b6e6d144f5d.png",
+    "static/media/mandelbrot.png": "/static/media/mandelbrot.5afa50a686598cb854ab.png",
+    "static/media/Employee-Report.png": "/static/media/Employee-Report.107e46f636e8f147b214.png",
+    "index.html": "/index.html",
+    "main.b3350f23.css.map": "/static/css/main.b3350f23.css.map",
+    "main.b4ed0d3f.js.map": "/static/js/main.b4ed0d3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3350f23.css",
+    "static/js/main.b4ed0d3f.js"
+  ]
+}
