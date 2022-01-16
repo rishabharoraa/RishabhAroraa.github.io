@@ -1,9 +1,11 @@
-import { Outlet } from 'react-router-dom'
+import LandingPage from './pages/landingPage/LandingPage'
 
 function App() {
   return (
-    <div className="flex justify-center bg-gray-200">
-      <Outlet />
+    <div className="w-full flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center max-w-7xl w-2/5">
+        <LandingPage />
+      </div>
     </div>
   )
 }
